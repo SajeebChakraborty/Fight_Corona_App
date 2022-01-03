@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center_horizontal"
+    android:background="#d5e29f"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#d5e29f"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="কোভিড - ১৯"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_margin="25dp"
+            android:textColor="#ba160c" />
+
+    <Button
+        android:id="@+id/coronadefine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="  করোনা কী?   "
+        android:background="#dda0dd"
+        android:layout_marginBottom="10dp"/>
+
+
+    <Button
+        android:id="@+id/syntrome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="       লক্ষণ      "
+        android:background="#a29088"
+        android:layout_marginBottom="10dp"/>
+
+
+    <Button
+        android:id="@+id/transmission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:background="#8f976d"
+        android:text="কীভাবে ছড়ায়?" />
+
+    <Button
+        android:id="@+id/prevention"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:background="#9acd32"
+        android:text="      প্রতিরোধ     " />
+
+    <Button
+        android:id="@+id/infection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffa07a"
+        android:text="আক্রান্ত ও মৃত্যু সংখ্যা" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="40sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powered By"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sajeeb Chakraborty"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
